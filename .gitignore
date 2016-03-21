@@ -20,3 +20,10 @@ build
 # other
 eclipse
 run
+
+CREDITS-fml.txt
+gradle/wrapper/gradle-wrapper.jar
+Launch Minecraft.bat
+*.txt
+gradlew.bat
+gradle/wrapper/gradle-wrapper.properties
