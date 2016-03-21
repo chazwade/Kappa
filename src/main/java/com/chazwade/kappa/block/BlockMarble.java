@@ -5,7 +5,7 @@ import net.minecraft.block.material.Material;
 
 public class BlockMarble extends BlockMod{
 	public BlockMarble(){
-		super("BlockMarble", Material.rock);
+		super("BlockMarble", Material.rock, 4);
 		setHardness(1.25F);
 		setResistance(7.0F);
 		setStepSound(SoundType.STONE);

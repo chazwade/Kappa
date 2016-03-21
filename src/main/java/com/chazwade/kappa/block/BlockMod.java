@@ -8,13 +8,18 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class BlockMod extends Block{
 	
-	public BlockMod(String name, Material materialIn)
+	public BlockMod(String name, Material materialIn, int variants)
 	{
 		super (materialIn);
 		this.setUnlocalizedName(name);
 		this.setCreativeTab(Kappa.tabKappa);
-		Block block = Block.getBlockFromName(name);
-	GameRegistry.registerBlock(block);
+		for (int i = 0; i < variants; i++){
+			
+		String newName = name + "_" + variants;
+			Block block = Block.getBlockFromName(newName);
+			GameRegistry.registerBlock(block);
+			System.out.println(newName);
+		}
 }
 	
 }
