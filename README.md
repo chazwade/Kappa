@@ -1,3 +1,2 @@
 # Kappa
-Greek Mythos Inspired Mod 
-Minecraft 1.9
+Greek Mythos Inspired Mod : Minecraft 1.9
